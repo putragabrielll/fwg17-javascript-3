@@ -17,6 +17,7 @@ const cekHariKerja = (day)=>{
     })
 }
 
+// Tugas A
 let cekHari = async(obj)=>{
     let hasil = await cekHariKerja(obj).then((result)=>{
         return result;
@@ -30,7 +31,7 @@ let cekHari = async(obj)=>{
 console.log(cekHari('rabu'))
 
 
-
+// Tugas B
 let hariKerja = async(hari) => {
     try {
         let kesimpulan = await cekHariKerja(hari)
