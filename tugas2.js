@@ -26,8 +26,7 @@ const cariBulan = async(a, b) => {
 
 
         // console.log(b)
-        // console.log(temp)
-        return temp
+        return console.log(temp)
     }
 }
 console.log(getMonth(cariBulan))
