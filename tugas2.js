@@ -29,4 +29,4 @@ const cariBulan = async(a, b) => {
         return console.log(temp)
     }
 }
-console.log(getMonth(cariBulan))
+getMonth(cariBulan)
