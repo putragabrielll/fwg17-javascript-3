@@ -12,16 +12,21 @@ const getMonth = (callback) => {
 }
 
 const cariBulan = async(a, b) => {
-    
     if (a != null){
-        console.log(a)
+        //console.log(a)
         return a.message
     } else {
+        // penggunaan function inline 1
         let temp = b.map((e) => {
             return e
         })
-        console.log(b)
-        console.log(temp)
+
+        // penggunaan function inline 2
+        ///let temp = b.map(e => e)
+
+
+        // console.log(b)
+        // console.log(temp)
         return temp
     }
 }
