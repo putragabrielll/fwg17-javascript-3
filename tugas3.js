@@ -8,6 +8,9 @@ const hasil = async(x) => {
     try{
         const res = await x
         const getData = await res.json()
+        // Debug
+        console.log(getData)
+        // Debug
         const dataA = await getData.map(a => a.name)
         console.log(dataA)
         return getData
@@ -23,6 +26,9 @@ panggilData()
     .then(result => result.json())
     .then((res) => {
         const hasil = res
+        // Debug
+        console.log(hasil)
+        // Debug
         data1 = hasil.map(a => a.name)
         console.log(data1)
     })
